@@ -10,8 +10,8 @@ http://localhost/textpattern/textpattern/index.php?event=file&step=file_insert<b
 3. Navigate to 'Content > Files' and upload the rce.php web shell.<br>
     ![alt text](https://github.com/patrickdeanramos/TextPattern-CMS-4.9.0-dev-Authenticated-Remote-Command-Execution-RCE-Through-File-Upload/blob/main/RCE-TextPatter-1.png?raw=True)
 5. Access the web shell directly by going to https://<url>/textpattern/files/rce.php?cmd=id.<br> 
-6. You can now interact with the web shell and execute commands using this 'cmd=id'.<br>
-   ![alt text](https://github.com/patrickdeanramos/TextPattern-CMS-4.9.0-dev-Authenticated-Remote-Command-Execution-RCE-Through-File-Upload/blob/main/RCE-TextPatter-2.png?raw=True)
+6. You can now interact with the web shell and execute commands using this 'cmd=COMMAND'.<br>
+   ![alt text](https://github.com/patrickdeanramos/TextPattern-CMS-4.9.0-dev-Authenticated-Remote-Command-Execution-RCE-Through-File-Upload/blob/main/RCE-TextPattern-2.png?raw=True)
 
 <B>Authors:</B><br> 
 Patrick Dean Ramos<br> 
