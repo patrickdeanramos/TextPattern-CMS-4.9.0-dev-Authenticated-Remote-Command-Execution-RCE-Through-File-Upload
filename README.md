@@ -13,6 +13,9 @@ http://localhost/textpattern/textpattern/index.php?event=file&step=file_insert<b
 6. You can now interact with the web shell and execute commands using this `cmd=id`.<br>
    ![alt text](https://github.com/patrickdeanramos/TextPattern-CMS-4.9.0-dev-Authenticated-Remote-Command-Execution-RCE-Through-File-Upload/blob/main/RCE-TextPattern-2.png?raw=True)
 
+<B>Proof Of Concept:</B><br> 
+![alt text](https://github.com/patrickdeanramos/TextPattern-CMS-4.9.0-dev-Authenticated-Remote-Command-Execution-RCE-Through-File-Upload/blob/main/textpattern-poc.png?raw=True)
+
 <B>Authors:</B><br> 
 Patrick Dean Ramos<br> 
 Nathu Nandwani<br> 
